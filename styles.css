@@ -1,0 +1,422 @@
+body {
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 2449.33px;
+    background-color: rgba(255,255,255,255);
+}
+.Header-primary {
+    position: relative;
+    width: 100%;
+    height: 102px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Header-primary::before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(Images\BackgroundImage.svg);
+}
+
+.Header-main-container {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.Header-brand-logo {
+    display: flex;
+    margin: 0;
+    width: 144px;
+    cursor: pointer;
+    padding-left:16px;
+}
+
+.Header-contact-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0.75rem;
+    transition: all 250ms;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 630.615px;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.Header-contact-us::before {
+    content: var(--boschicon-bosch-ic-chat);
+}
+
+.Header-search {
+    appearance: button;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    height: 48px;
+    letter-spacing: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+.Header-search::before {
+
+}
+
+.Header-menu {
+    appearance: button;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    height: 48px;
+    letter-spacing: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 0;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.home-teaser {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+}
+
+.Main-text-Hydrogen {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: solid;
+    text-align: left;
+    padding-left: 120px;
+    text-size-adjust: 100%;
+}
+
+.Two-content-container {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.Image-link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Hydrogen-image {
+    width: 62.8%;
+    font-size: 16px;
+
+}
+
+.Sub-image {
+    width: 61.7%;
+    padding-left: 25px;
+}
+
+.Teaser-sublinks {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Section1,
+.Section2,
+.Section3 {
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 120px;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ProductSlider {
+    padding-left: 120px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    height: 280px;
+    column-gap: 25px;
+}
+
+.Home-appliances,
+.Power-tools,
+.Garden-tools,
+.Measuring-tools,
+.Cleaning-tools,
+.Heating-cooling-wellbeing,
+.Smart-home {
+    display: grid;
+    grid-template-rows: 200px;
+}
+
+.Image-HomeAppliances,
+.Image-PowerTools,
+.Image-GardenTools,
+.Image-MeasuringTools,
+.Image-CleaningTools,
+.Image-HeatingCoolingWellbeing,
+.Image-SmartHome {
+    width: 100%;
+    height: 100%;
+}
+
+.Text-HomeAppliances,
+.Text-PowerTools,
+.Text-GardenTools,
+.Text-MeasuringTools,
+.Text-CleaningTools,
+.Text-HeatingCoolingWellbeing,
+.Text-SmartHome {
+    width: 100%;
+    height: 80%;
+    background-color: #EFF1F3;
+    text-align: center;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.Section2-Three-Item-container {
+    padding-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Head-mobility,
+.Head-industry-Traders,
+.Head-market-specific-solutions {
+    color: rgb(0, 0, 0);
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Content-mobility,
+.Content-industry-Traders,
+.Content-market-specific-solutions {
+    color: rgb(0, 0, 0);
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    padding-top: 14px;
+}
+
+.Link-mobility,
+.Link-industry-Traders,
+.Link-market-specific-solutions {
+    color: rgb(0, 0, 0);
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    padding-top: 14px;
+}
+
+.Story-Five-item-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+}
+
+.Two-item-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.Three-item-container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.Sustainable-mobility,
+.Solid-oxide-fuel-cell {
+    width: 100%;
+}
+
+.Image-Sustainable-mobility,
+.Image-Solid-oxide-fuel-cell {
+    width: 100%;
+}
+
+.Digital-talent,
+.Ridecare-companion,
+.My-invented-for-life {
+    width: 100%;
+}
+
+.Image-Digital-talent,
+.Image-Ridecare-companion,
+.Image-My-invented-for-life {
+    width: 100%;
+}
+
+.Text-Sustainable-mobility,
+.Text-Solid-oxide-fuel-cell,
+.Text-Digital-talent,
+.Text-Ridecare-companion,
+.Text-Image-My-invented-for-life {
+    font-size: 9px;
+    background-color: #EFF1F3;
+    margin: 0;
+}
+
+.Communication {
+    position:relative;
+    margin-left: 120px;
+    margin-top: 150px;
+    height: 300px;
+    width: 92%;
+    text-decoration: solid;
+    align-items: center;
+    padding-left: 25px;
+    background-color: #EFF1F3;
+}
+
+.Get-in-touch-with-Bosch,.Send-us-a-message{
+    position:absolute;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    
+}
+.Get-in-touch-with-Bosc {
+    left: 0;
+}
+.Send-us-a-message {
+    left: 47.5%;
+}
+.WorkingAtBosch {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 150px;
+    height: 249px;
+    width: 100%;
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.Apply-now,
+.Business-partner {
+    position: absolute;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    background-color: #007bc0;
+    height: 100%;
+    width: 39.5%;
+}
+.Apply-now {
+    left: 0;
+}
+.Business-partner {
+    right: 0;
+    left: 47.5%;
+}
+.footer{
+    background-color: #2e3033;
+    position: relative;
+    height:500px;
+    width: 55%;
+    color:white;
+    font-size:16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    left:0;
+    right:0;
+}
+.Footer-Still-looking-part{
+    position: absolute;
+    left: 32px;
+    cursor:text;
+    font-family: boschsans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.Footer-Search-bar{
+    position:absolute;
+    left:100px;
+}
